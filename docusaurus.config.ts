@@ -59,8 +59,8 @@ const config: Config = {
           position: "left",
           label: "Documentation",
         },
-        { to: "/integration", label: "Integration", position: "left" },
-        { to: "/api-reference", label: "API Reference", position: "left" },
+        // { to: "/integration", label: "Integration", position: "left" },
+        // { to: "/api-reference", label: "API Reference", position: "left" },
         {
           href: "https://github.com/zeegoev/zeegoev-docs",
           label: "GitHub",
@@ -97,19 +97,7 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/zeegoev/zeegoev-docs",
-            },
-          ],
-        },
+        
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
